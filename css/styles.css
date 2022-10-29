@@ -20,10 +20,33 @@ a:hover {
 
 h1,
 h2,
-li {
+p {
     text-align: center;
 }
 
+p {
+    margin: auto;
+    width: 40%;
+    margin-bottom: 30px;
+}
+
+ul {
+    width: 20%;
+    list-style-type: circle;
+    margin: auto;
+}
+
+.directions {
+    width: 40%;
+    margin: auto;
+    list-style-type: lower-alpha;
+}
+
+.directions p,
+ul p {
+    text-align: left;
+    width: 100%;
+}
 
 .header {
     display: block;
