@@ -24,22 +24,27 @@ li {
     text-align: center;
 }
 
-img {
-    height: 500px;
-}
 
-
-.row {
-    display: flex;
-}
-
-.column {
-    flex: 33.33%;
-    padding: 5px;
-}
-
-.header{
+.header {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    height: 500px;
+    border-radius: 1%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1px;
+}
+
+.column {
+    flex-basis: 33%;
+}
+
+.column img {
+    height: 80%;
+    border-radius: 1%;
 }
